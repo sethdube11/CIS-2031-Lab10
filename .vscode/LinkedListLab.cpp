@@ -40,31 +40,24 @@ void prepend(List* &list, string val){
 void removeFirst(List* &list){
     //❓ Lab Question 9
     //YOUR CODE HERE
-    if ( list != NULL ){ //TODO Remove
-        List* tmp = list;
-        list = list->next;
-        delete tmp;
-    }
 }
 
 //This function returns true if the list haystck
 //contains the value needle, and false otherwise.
 bool contains(List* haystack, string needle){
     //❓ Lab Question 10
-    while ( haystack != NULL ){ //TODO Remove
-        if ( haystack->value == needle )
-            return true;
-        haystack = haystack->next; //Move on to the next value
-    }
+    //YOUR CODE HERE
     return false;
 }
 
 void insertAt(List* &list, int pos, string value){
     //❓ Lab Question 11
+    //YOUR CODE HERE
 }
 
 void deleteAt(List* &list, int pos, string value){
     //❓ Lab Question 11
+    //YOUR CODE HERE
 }
 
 void main(){
@@ -83,9 +76,6 @@ void main(){
 
     //❓ Lab Question 6
     // YOUR CODE TO REMOVE TURNIPS HERE:
-    List* turnip = dinner; //TODO Remove
-    dinner = dinner->next;
-    delete turnip;
     printList(dinner);
 
     //❓ Lab Question 10
